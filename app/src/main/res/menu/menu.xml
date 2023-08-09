@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/quanLiSanPham"
+            android:icon="@drawable/ic_manage_product"
+            android:title="Quan li san pham" />
+        <item
+            android:id="@+id/gioiThieu"
+            android:icon="@drawable/ic_introduce"
+            android:title="Gioi thieu" />
+    </group>
+
+    <item android:title="Khác">
+
+        <menu>
+            <item
+                android:id="@+id/caiDat"
+                android:icon="@drawable/ic_setting"
+                android:title="Cai dat" />
+
+            <item
+                android:id="@+id/dangXuat"
+                android:icon="@drawable/ic_logout"
+                android:title="Dang xuat" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Asignment</string>
+    <string name="open">Asignment</string>
+    <string name="close">Asignment</string>
+
+    <string name="forgot_password">
+        <u>forgot password?</u>
+    </string>
+    <string name="chinh_sua"><u>Chinh sua</u></string>
+    <string name="xoa"><u>Xoa</u></string>
+</resources>
